@@ -6,7 +6,11 @@
 	class Conductor
 	{
 		// Conduct the experiment and call the private report method to display the results of the experiment.
-		public static void Main() { }
+		public static void Main() 
+        {
+            Die test1 = new Die();
+            test1.Roll();
+        }
 
 		// Takes in experiment result data and displays it to the console.
 		private static void Report(int totalRolls, Dictionary<int, int> data) { }

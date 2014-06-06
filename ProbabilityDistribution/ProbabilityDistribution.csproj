@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Statistician.cs" />
+    <Compile Include="Die.cs" />
     <Compile Include="Conductor.cs" />
     <Compile Include="IDie.cs" />
     <Compile Include="IStatistician.cs" />

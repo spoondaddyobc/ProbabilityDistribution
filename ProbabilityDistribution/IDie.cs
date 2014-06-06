@@ -1,4 +1,6 @@
-﻿namespace ProbabilityDistribution
+﻿using System;
+
+namespace ProbabilityDistribution
 {
 	interface IDie
 	{
