@@ -27,8 +27,8 @@ namespace ProbabilityDistribution
             #region Constructior
             public Die()
             {
+                random = new Random();
                 Roll();
-                Value();
             }
             #endregion  
     }

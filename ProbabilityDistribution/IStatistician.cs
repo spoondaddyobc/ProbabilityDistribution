@@ -8,6 +8,6 @@
 		void Experiment(int numberOfRolls);
 
 		// Return the results in a dictionary object. <DieValue, NumberOfInstances>
-		IDictionary<int, int> Results();
+		IDictionary<int, int> Results { get; }
 	}
 }
