@@ -19,7 +19,7 @@ namespace ProbabilityDistribution
 
         public void Roll()
             {
-                value = random.Next(1, 6);
+                value = random.Next(1, 7);
             }
 
             #endregion
